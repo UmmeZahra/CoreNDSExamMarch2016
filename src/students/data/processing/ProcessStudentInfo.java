@@ -44,27 +44,31 @@ public class ProcessStudentInfo {
 		List<Student> QtpStudent = new ArrayList<>();
 		//Create XMLReader object.
 		XmlReader xmlreader = new XmlReader();
+
 		//Parse Data using parseData method and then store data into Selenium ArrayList.
 		SeleniumStudent = xmlreader.parseData(tag,pathSelenium);
 
 	    //Parse Data using parseData method and then store data into Qtp ArrayList.
         QtpStudent = xmlreader.parseData(tag,pathQtp);
 	     //add Selenium ArrayList data into map.
-        studentinfo.put("SeleniumStudent list : ",SeleniumStudent);
+        studentinfo.put(" ",SeleniumStudent);
 
 	    //add Qtp ArrayList data into map.
-        studentinfo.put("QtpStudent list: ",QtpStudent);
-
+        studentinfo.put(" ",QtpStudent);
+        System.out.println("................................................................");
 	    //Retrieve map data and display output.
         Iterator it = studentinfo.entrySet().iterator();// enter to iterator through map.entrySet
+
         while(it.hasNext()){
             System.out.println(it.next());
 
         }
+
         for(Map.Entry<String, List<Student>> cursor:studentinfo.entrySet()) {
 
-            System.out.println("Key: " + cursor.getKey()+"  " + "Value: "+cursor.getValue()+"grade:"+cursor.toString());
+            System.out.print((cursor.getKey()+"   "+cursor.getValue()+"  "+ "grade:")+"\n");
         }
+        System.out.println("................................................................");
 
 }
 
