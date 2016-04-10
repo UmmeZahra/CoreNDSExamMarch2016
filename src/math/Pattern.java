@@ -8,9 +8,18 @@ public class Pattern {
 		 * 
 		 */
 		
+		int i, count = -1,z = 0;
+		for(i=100;i >= 0; i--){ //for loop to count 0 to 100
+			if(count == 10){
+				count = 0;
+				z++;
+			}
+			count++;
+			i=i - z;
+			System.out.println(i);
 
-		
-		
+		}
+
 		
 
 	}
