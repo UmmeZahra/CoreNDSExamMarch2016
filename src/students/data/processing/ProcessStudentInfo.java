@@ -6,10 +6,7 @@ import xml.parser.XmlReader;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class ProcessStudentInfo {
 
@@ -39,7 +36,7 @@ public class ProcessStudentInfo {
 		String tag = "id";
 
 		//Declare a Map with List<String> into it.a
-		Map<String, List<String>> studentinfo = new HashMap<String, List<String>>();
+		Map<String, List<Student>> studentinfo = new HashMap<>();
 				
 				/*Declare 2 ArrayList with Student data type to store Selenium student into one of the ArrayList and
 				  Qtp student into another ArrayList. */
@@ -48,17 +45,26 @@ public class ProcessStudentInfo {
 		//Create XMLReader object.
 		XmlReader xmlreader = new XmlReader();
 		//Parse Data using parseData method and then store data into Selenium ArrayList.
-		SeleniumStudent = xmlreader.parseData("id",pathSelenium);
+		SeleniumStudent = xmlreader.parseData(tag,pathSelenium);
 
 	    //Parse Data using parseData method and then store data into Qtp ArrayList.
-        QtpStudent = xmlreader.parseData("id",pathQtp);
+        QtpStudent = xmlreader.parseData(tag,pathQtp);
 	     //add Selenium ArrayList data into map.
+        studentinfo.put("SeleniumStudent list : ",SeleniumStudent);
 
-	//add Qtp ArrayList data into map.
+	    //add Qtp ArrayList data into map.
+        studentinfo.put("QtpStudent list: ",QtpStudent);
 
+	    //Retrieve map data and display output.
+        Iterator it = studentinfo.entrySet().iterator();// enter to iterator through map.entrySet
+        while(it.hasNext()){
+            System.out.println(it.next());
 
-	//Retrieve map data and display output.
+        }
+        for(Map.Entry<String, List<Student>> cursor:studentinfo.entrySet()) {
 
+            System.out.println("Key: " + cursor.getKey()+"  " + "Value: "+cursor.getValue()+"grade:"+cursor.toString());
+        }
 
 }
 
