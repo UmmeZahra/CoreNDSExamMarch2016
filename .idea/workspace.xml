@@ -6,8 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ExamMarch2016/students/data/processing/ProcessStudentInfo.class" afterPath="$PROJECT_DIR$/out/production/ExamMarch2016/students/data/processing/ProcessStudentInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ExamMarch2016/definition/data-structure-questions" afterPath="$PROJECT_DIR$/out/production/ExamMarch2016/definition/data-structure-questions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/math/Pattern.java" afterPath="$PROJECT_DIR$/src/math/Pattern.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/students/data/processing/ProcessStudentInfo.java" afterPath="$PROJECT_DIR$/src/students/data/processing/ProcessStudentInfo.java" />
     </list>
     <ignored path="ExamMarch2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -747,7 +745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460267933083</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dscfsd">
+      <created>1460303757139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1460303757139</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
