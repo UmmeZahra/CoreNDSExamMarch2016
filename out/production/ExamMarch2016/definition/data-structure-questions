@@ -1,0 +1,60 @@
+Please answer the below Data Structure Questions:
+
+    why do we need data structure?
+Ans:Data structure is a particular way of organizing data in a computer so that it can be used efficiently.
+  Different kinds of data structures are suited to different kinds of applications, and some are highly specialized to specific tasks.
+  Data structures provide a means to manage large amounts of data efficiently for uses such as large databases and internet indexing services.
+    List out the areas in which data structures are applied extensively?
+Ans: Array, ArrayList, LinkedList, Stack, Queue, Tree, HashMap, HasTable, Graph
+    what is an Array?
+Ans:An array is a container object that holds a fixed number of values of a single type. The length of an array is established when the array is created. After creation, its length is fixed.
+    what is the difference between the Array and ArrayList?
+Ans: array is a collection of similar type of data and the capacity of array is fixed and it define with in system name pace
+    array list it hold different type of data and the capacity of arraylist is increase dynamically .
+    what is LinkedList?
+Ans: A linked list is a linear dynamic data structure where each element is a separate object and that can grow and shrink during it’s execution time.
+    what is queue?
+Ans: A queue is a container of objects (a linear collection) that are inserted and removed according to the first-in first-out (FIFO) principle.
+New additions to a line made to the back of the queue, while removal (or serving) happens in the front.
+    what is stack?
+Ans: A stack is a container of objects that are inserted and removed according to the last-in first-out (LIFO) principle.
+    what is FIFO and LIFO?
+Ans: first-in first-out (FIFO)
+     last-in first-out (LIFO)
+    what is the order of complexity?
+Ans:
+    what is the best case to search an element from an array?
+Ans:
+    what is the worst case to search an element from an array?
+Ans:
+    what is tree in data structure?
+Ans: A tree data structure is a powerful tool for organizing data objects based on keys. It is equally useful for organizing multiple data objects in terms of hierarchical relationships .
+     The node at the top is the root, the tree's ``starting point.'' The arcs between nodes are called branches. A node that has no branches underneath it is called a leaf. Real trees grow from their root upwards to the sky, but computer-science trees grow from the root downwards.
+     Trees can hold objects that are sorted by their keys. The nodes are ordered so that all keys in a node's left subtree are less than the key of the object at the node, and all keys in a node's right subtree are greater than the key of the object at the node.
+    what is graph in data structure?
+Ans: A graph is an abstract data type that is meant to implement the undirected graph and directed graph concepts from mathematics. A graph data structure consists of a finite set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges, arcs, or lines for an undirected graph and as arrows, directed edges, directed arcs, or directed lines for a directed graph. The vertices may be part of the graph structure, or may be external entities represented by integer indices or references.
+    what is the difference between the HashTable and HashMap?
+Ans:
+    What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+Ans:
+    How HashMap works in java?
+Ans:
+    What is ArrayIndexOutOfBoundsException in java? When it occurs?
+Ans:
+    What are the different ways of copying an array into another array?
+Ans:
+    What is difference between an array and a linked list?
+Ans:
+    What is DFS and BFS?
+Ans:
+    What is Recursion?
+Ans:
+    What is Big-(O)-notation?
+Ans:
+    Outlined different kind of sorting algorithm with time complexity?
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  b)In terms of Inserting element.
+  c)In terms of Searching element.
+  d)In terms of Removing element.

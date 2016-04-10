@@ -28,8 +28,8 @@ public class ProcessStudentInfo {
 		 */
 			public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
 				//Path of XML data to be read.
-				String pathSelenium  = System.getProperty("user.dir") +"/src/xml/reader/selenium.xml";
-				String pathQtp = System.getProperty("user.dir") + "/src/xml/reader/qtp.xml";
+				String pathSelenium  = "C:\\Users\\Syeda\\IdeaProjects\\CoreNDSExamMarch2016\\src\\xml\\parser\\selenium.xml";
+				String pathQtp = "C:\\Users\\Syeda\\IdeaProjects\\CoreNDSExamMarch2016\\src\\xml\\parser\\qtp.xml";
 				String tag = "id";
 				
 				//Declare a Map with List<String> into it.
